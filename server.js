@@ -14,7 +14,7 @@ const server = express()
 const wss = new SocketServer({ server });
 
 wss.on('connection', (ws) => {
-  console.log('2 Client connected by satya branch 22 ;
+  console.log('2 Client connected by satya branch 22 ');
 
   ws.on('close', () => console.log('Client disconnected'));
 });
