@@ -1,0 +1,28 @@
+{
+  "name": "heroku-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobdi98/heroku-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobdi98/heroku-poc/issues"
+  },
+  "engines": {
+    "node": "6.2.0"
+  },
+  "homepage": "https://github.com/bobdi98/heroku-poc#readme",
+  "dependencies": {
+    "bufferutil": "3.0.0",
+    "express": "4.15.2",
+    "utf-8-validate": "3.0.1",
+    "ws": "2.3.1"
+  }
+}
